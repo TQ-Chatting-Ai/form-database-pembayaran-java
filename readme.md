@@ -49,10 +49,10 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](
       pkill mariadb
       ```
       ```bash
-         mariadbd \
-        --datadir=$PWD/data_db \
-        --socket=$PWD/mysql.sock \
-        --port=3306 &
+      mariadbd \
+      --datadir=$PWD/data_db \
+      --socket=$PWD/mysql.sock \
+      --port=3306 &
       ```
       > Setelah itu, tidak akan perlu password lagi untuk akses kembali kedalam MariaDB-nya
 </details>
@@ -65,7 +65,7 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](
 
    1. Masuk kembali ke MariaDB
       ```bash
-        mariadb --socket=$PWD/mysql.sock
+      mariadb --socket=$PWD/mysql.sock
       ```
 
    2. Setup Database
@@ -128,9 +128,9 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](
 - Monitoring Data (Console)
    ```bash
    mariadb -u root \
-     --socket=$PWD/mysql.sock \
-     -t \
-     -e "SELECT * FROM dbProjectSiswa.pembayaran_spp;"
+   --socket=$PWD/mysql.sock \
+   -t \
+   -e "SELECT * FROM dbProjectSiswa.pembayaran_spp;"
    ```
    
 - Auto refresh dengan `watch`
