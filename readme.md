@@ -1,5 +1,5 @@
 # Java Project — Sistem Pembayaran SPP 
-[Video [ID]](https://youtu.be/8fAyPZ5SU5I)
+[Video [ID]](https://youtu.be/pUnVXRxGBts)
 
 Project Java GUI sederhana untuk manajemen pembayaran SPP sekolah.
 
