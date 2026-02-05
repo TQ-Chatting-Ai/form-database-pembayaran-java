@@ -95,13 +95,50 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini :
       selesai
 </details>
 
+
+<!-- COMPILE PROJECT KE .jar -->
+<details close>
+   <summary><h2>Langkah 3: COMPILE .JAR</h2></summary>
+
+   ---
+
+   1. BUat file `manifest.txt`
+      
+      isi dengan :
+      ```txt
+      Main-Class: SistemSPP
+      Class-Path: mysql.jar
+
+      # pastikan ada newline kosong di paling bawah kodenya
+      ```
+
+   2. buat file .class
+
+      ```bash
+      javac SistemSPP.java
+      ```
+      > perintah ini akan mengenerate file SistemSPP.class & SistemSPP$1.class
+      
+   3. Bungkus Kedalam .jar
+
+      ```bash
+      jar cvfm SistemSPP.jar manifest.txt SistemSPP.class 'SistemSPP$1.class'
+      ```
+
+      selesai
+</details>
+
 <!-- COMPILE PROJECT -->
 <details open>
-  <summary><h2>Langkah 3: Program Java Siap dijalankan</h2></summary>
+  <summary><h2>Langkah 4: Program Java Siap dijalankan</h2></summary>
   
   - Jalankan perintah ini untuk memunculkan GUI
      ```bash
      java -cp .:mysql.jar SistemSPP.java
+     ```
+     or
+     ```bash
+     java -jar SistemSPP.jar
      ```
 
      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/698dc6cd-2c0c-4a5f-9fd6-8693102c5db5" />
