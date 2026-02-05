@@ -134,6 +134,10 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini :
   
   - Jalankan perintah ini untuk memunculkan GUI
      ```bash
+     # Windows
+     java -cp .;mysql.jar SistemSPP.java
+     
+     # Linux
      java -cp .:mysql.jar SistemSPP.java
      ```
      or
