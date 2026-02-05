@@ -91,7 +91,7 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](
 </details>
 
 <!-- COMPILE PROJECT -->
-<details close>
+<details open>
   <summary><h2>Langkah 3: Program Java Siap dijalankan</h2></summary>
   
   - Jalankan perintah ini untuk memunculkan GUI
