@@ -1,13 +1,17 @@
 # Java Project — Sistem Pembayaran SPP
 Project Java GUI sederhana untuk manajemen pembayaran SPP sekolah.
 
-### Dependency yang harus kita punya untuk bisa menjalankan project ini :
-- [MariaDB](https://mariadb.com/downloads/community/community-server/)
-  
----
+Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](https://mariadb.com/downloads/community/community-server/)
+
+
+#### Table of Konten:
+  1. [Setup MariaDB](https://github.com/TQ-Chatting-Ai/form-database-pembayaran/edit/main/readme.md#setup-mariadb)
+  2. [Buat Table Database](https://github.com/TQ-Chatting-Ai/form-database-pembayaran/edit/main/readme.md#Buat-Table-Database)
+  3. [Program Java siap dijalankan](https://github.com/TQ-Chatting-Ai/form-database-pembayaran/edit/main/readme.md#Program-Java-siap-dijalankan)
+
 
 <!-- SETUP DATABASE -->
-<details close>
+<details open>
    <summary><h2>Setup MariaDB</h2></summary>
    
    ---
@@ -61,7 +65,7 @@ Project Java GUI sederhana untuk manajemen pembayaran SPP sekolah.
 </details>
 
 <!-- SETUP DATABASE TABLE -->
-<details close>
+<details open>
    <summary><h2>Buat Table Database</h2></summary>
 
    ---
@@ -94,7 +98,7 @@ Project Java GUI sederhana untuk manajemen pembayaran SPP sekolah.
 </details>
 
 <!-- COMPILE PROJECT -->
-<details>
+<details open>
    <summary><h2>Program Java Siap dijalankan</h2></summary>
 
    ---
