@@ -12,7 +12,7 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini : [MariaDB](
    1. Membuat folder MariaDB `data_db` di dalam PATH project
         ```bash
         mkdir data_db
-        mariadb-install-db --datadir=$PWD/data_db\
+        mariadb-install-db --datadir=$PWD/data_db
         ```
         
    2. Jalankan Server
