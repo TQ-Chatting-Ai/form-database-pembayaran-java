@@ -1,4 +1,8 @@
 Membuat "Fat JAR" (menggabungkan kode dan library `mysql.jar` menjadi satu file tunggal).
+```sql
+SistemSPP_Final.jar
+```
+
 ### Langkah-langkah Membuat Fat JAR Manual
 
 ```bash
