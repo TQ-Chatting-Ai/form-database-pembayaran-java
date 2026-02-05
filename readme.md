@@ -98,7 +98,7 @@ Dependency yang harus kita punya untuk bisa menjalankan project ini :
 
 <!-- COMPILE PROJECT KE .jar -->
 <details close>
-   <summary><h2>Langkah 3: COMPILE .JAR</h2></summary>
+   <summary><h2>Langkah 3: Compile .JAR</h2></summary>
 
    ---
 
